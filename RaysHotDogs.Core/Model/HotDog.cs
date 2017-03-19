@@ -18,7 +18,7 @@ namespace RaysHotDogs.Core.Model
         public bool Available { get; set; }
         public int PrepTime { get; set; }
         public List<string> Ingredients { get; set; }
-        public bool IsFavourite { get; set; }
+        public bool IsFavorite { get; set; }
         public string GroupName { get; set; }
     }
 }
