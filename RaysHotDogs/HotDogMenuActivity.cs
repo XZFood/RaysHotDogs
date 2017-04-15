@@ -12,6 +12,7 @@ using Android.Widget;
 using RaysHotDogs.Core.Model;
 using RaysHotDogs.Core.Service;
 using RaysHotDogs.Adapters;
+using RaysHotDogs.Fragments;
 
 namespace RaysHotDogs
 {
@@ -31,14 +32,10 @@ namespace RaysHotDogs
 
             ActionBar.NavigationMode = ActionBarNavigationMode.Tabs;
 
-            hotDogListView = FindViewById<ListView>(Resource.Id.hotDogListView);
-            hotDogDataService = new HotDogDataService();
-            allHotDogs = hotDogDataService.GetAllHotDogs();
+            AddTab("Favorites", Resource.Drawable.FavoritesIcon, new FavoriteHotDogFragment());
+            AddTab("Meat Lovers", Resource.Drawable.MeatLoversIcon, new MeatLoversFragment());
+            AddTab("Veggie Lovers", Resource.Drawable.VeggieLoversIcon, new VeggieLoversFragment());
 
-            hotDogListView.Adapter = new HotDogListAdapter(this, allHotDogs);
-            hotDogListView.FastScrollEnabled = true;
-
-            hotDogListView.ItemClick += HotDogListView_ItemClick;
         }
 
         private void AddTab(string tabText, int iconResourceId, Fragment view)
@@ -61,6 +58,8 @@ namespace RaysHotDogs
             {
                 e.FragmentTransaction.Remove(view);
             };
+
+            this.ActionBar.AddTab(tab);
         }
 
       

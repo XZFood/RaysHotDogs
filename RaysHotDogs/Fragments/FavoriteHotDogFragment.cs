@@ -14,7 +14,7 @@ using RaysHotDogs.Adapters;
 
 namespace RaysHotDogs.Fragments
 {
-    public class FavouriteHotDogFragment : BaseFragment
+    public class FavoriteHotDogFragment : BaseFragment
     {
         public override void OnCreate(Bundle savedInstanceState)
         {
@@ -33,12 +33,10 @@ namespace RaysHotDogs.Fragments
             hotDogs = hotDogDataService.GetFavouriteHotDogs();
             listView.Adapter = new HotDogListAdapter(this.Activity, hotDogs);
         }
+
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
-            // Use this to return your custom view for this Fragment
-            // return inflater.Inflate(Resource.Layout.YourFragment, container, false);
-
-            return inflater.Inflate(Resource.Layout.FavouriteHotDogFragment, container, false);
+            return inflater.Inflate(Resource.Layout.FavoriteHotDogFragment, container, false);
         }
     }
 }

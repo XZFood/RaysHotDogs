@@ -39,7 +39,7 @@ namespace RaysHotDogs.Adapters
 
             if (convertView == null)
             {
-                convertView = context.LayoutInflater.Inflate(Resource.Layout.HotDogRowView, null);
+                convertView = context.LayoutInflater.Inflate(Resource.Layout.HotDogMenuView, null);
             }
 
             convertView.FindViewById<TextView>(Resource.Id.hotDogNameTextView).Text = item.Name;

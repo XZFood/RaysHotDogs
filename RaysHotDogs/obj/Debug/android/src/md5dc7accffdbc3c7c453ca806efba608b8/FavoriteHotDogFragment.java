@@ -1,7 +1,7 @@
 package md5dc7accffdbc3c7c453ca806efba608b8;
 
 
-public class FavouriteHotDogFragment
+public class FavoriteHotDogFragment
 	extends md5dc7accffdbc3c7c453ca806efba608b8.BaseFragment
 	implements
 		mono.android.IGCUserPeer
@@ -14,15 +14,15 @@ public class FavouriteHotDogFragment
 			"n_onActivityCreated:(Landroid/os/Bundle;)V:GetOnActivityCreated_Landroid_os_Bundle_Handler\n" +
 			"n_onCreateView:(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;:GetOnCreateView_Landroid_view_LayoutInflater_Landroid_view_ViewGroup_Landroid_os_Bundle_Handler\n" +
 			"";
-		mono.android.Runtime.register ("RaysHotDogs.Fragments.FavouriteHotDogFragment, RaysHotDogs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", FavouriteHotDogFragment.class, __md_methods);
+		mono.android.Runtime.register ("RaysHotDogs.Fragments.FavoriteHotDogFragment, RaysHotDogs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", FavoriteHotDogFragment.class, __md_methods);
 	}
 
 
-	public FavouriteHotDogFragment () throws java.lang.Throwable
+	public FavoriteHotDogFragment () throws java.lang.Throwable
 	{
 		super ();
-		if (getClass () == FavouriteHotDogFragment.class)
-			mono.android.TypeManager.Activate ("RaysHotDogs.Fragments.FavouriteHotDogFragment, RaysHotDogs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+		if (getClass () == FavoriteHotDogFragment.class)
+			mono.android.TypeManager.Activate ("RaysHotDogs.Fragments.FavoriteHotDogFragment, RaysHotDogs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
 
