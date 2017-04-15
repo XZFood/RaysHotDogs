@@ -38,6 +38,9 @@ namespace RaysHotDogs
             HotDogDataService dataService = new HotDogDataService();
             selectedHotDog = dataService.GetHotDogById(1);
 
+            var selectedHotDogId = Intent.Extras.GetInt("selectedHotDogId");
+            selectedHotDog = dataService.GetHotDogById(selectedHotDogId);
+
             FindViews();
             BindData();
             HandleEvents();

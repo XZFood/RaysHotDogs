@@ -1,3 +1,7 @@
+RaysHotDogs.AboutActivity, RaysHotDogs;md569b3812a35e0a5e98137aae69d6c065a.AboutActivity
+RaysHotDogs.AboutActivity, RaysHotDogs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md569b3812a35e0a5e98137aae69d6c065a.AboutActivity
+RaysHotDogs.AboutActivity;md569b3812a35e0a5e98137aae69d6c065a.AboutActivity
+rayshotdogs.AboutActivity;md569b3812a35e0a5e98137aae69d6c065a.AboutActivity
 RaysHotDogs.HotDogDetailActivity, RaysHotDogs;md569b3812a35e0a5e98137aae69d6c065a.HotDogDetailActivity
 RaysHotDogs.HotDogDetailActivity, RaysHotDogs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md569b3812a35e0a5e98137aae69d6c065a.HotDogDetailActivity
 RaysHotDogs.HotDogDetailActivity;md569b3812a35e0a5e98137aae69d6c065a.HotDogDetailActivity
@@ -10,6 +14,10 @@ RaysHotDogs.MainActivity, RaysHotDogs;md569b3812a35e0a5e98137aae69d6c065a.MainAc
 RaysHotDogs.MainActivity, RaysHotDogs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md569b3812a35e0a5e98137aae69d6c065a.MainActivity
 RaysHotDogs.MainActivity;md569b3812a35e0a5e98137aae69d6c065a.MainActivity
 rayshotdogs.MainActivity;md569b3812a35e0a5e98137aae69d6c065a.MainActivity
+RaysHotDogs.MenuActivity, RaysHotDogs;md569b3812a35e0a5e98137aae69d6c065a.MenuActivity
+RaysHotDogs.MenuActivity, RaysHotDogs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md569b3812a35e0a5e98137aae69d6c065a.MenuActivity
+RaysHotDogs.MenuActivity;md569b3812a35e0a5e98137aae69d6c065a.MenuActivity
+rayshotdogs.MenuActivity;md569b3812a35e0a5e98137aae69d6c065a.MenuActivity
 RaysHotDogs.Adapters.HotDogListAdapter, RaysHotDogs;md5968febeb0fc8da8df7855a4131e4891a.HotDogListAdapter
 RaysHotDogs.Adapters.HotDogListAdapter, RaysHotDogs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5968febeb0fc8da8df7855a4131e4891a.HotDogListAdapter
 RaysHotDogs.Adapters.HotDogListAdapter;md5968febeb0fc8da8df7855a4131e4891a.HotDogListAdapter

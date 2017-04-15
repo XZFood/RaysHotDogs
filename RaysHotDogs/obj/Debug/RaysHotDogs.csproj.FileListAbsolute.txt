@@ -46,5 +46,8 @@ C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets
 C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\hotdogrowview.xml
+C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\mainmenu.xml
+C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\obj\Debug\res\drawable\raylogo.png
+C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\aboutview.xml
 C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\obj\Debug\RaysHotDogs.dll.mdb
 C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\bin\Debug\RaysHotDogs.dll.mdb

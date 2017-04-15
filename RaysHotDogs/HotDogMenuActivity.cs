@@ -15,7 +15,7 @@ using RaysHotDogs.Adapters;
 
 namespace RaysHotDogs
 {
-    [Activity(Label = "HotDogMenuActivity", MainLauncher =true)]
+    [Activity(Label = "HotDogMenuActivity")]
     public class HotDogMenuActivity : Activity
     {
         private ListView hotDogListView;
@@ -34,6 +34,19 @@ namespace RaysHotDogs
 
             hotDogListView.Adapter = new HotDogListAdapter(this, allHotDogs);
             hotDogListView.FastScrollEnabled = true;
+
+            hotDogListView.ItemClick += HotDogListView_ItemClick;
+        }
+
+        private void HotDogListView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
+        {
+            var hotDog = allHotDogs[e.Position];
+
+            var intent = new Intent();
+            intent.SetClass(this, typeof(HotDogDetailActivity));
+            intent.PutExtra("selectHotdogId", hotDog.HotDogId);
+
+            StartActivityForResult(intent, 100);
         }
     }
 }
