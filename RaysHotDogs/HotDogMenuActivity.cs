@@ -28,6 +28,9 @@ namespace RaysHotDogs
             // Create your application here
 
             SetContentView(Resource.Layout.HotDogListView);
+
+            ActionBar.NavigationMode = ActionBarNavigationMode.Tabs;
+
             hotDogListView = FindViewById<ListView>(Resource.Id.hotDogListView);
             hotDogDataService = new HotDogDataService();
             allHotDogs = hotDogDataService.GetAllHotDogs();
@@ -38,6 +41,29 @@ namespace RaysHotDogs
             hotDogListView.ItemClick += HotDogListView_ItemClick;
         }
 
+        private void AddTab(string tabText, int iconResourceId, Fragment view)
+        {
+            var tab = this.ActionBar.NewTab();
+            tab.SetText(tabText);
+            tab.SetIcon(iconResourceId);
+
+            tab.TabSelected += delegate (object sender, ActionBar.TabEventArgs e)
+            {
+                var fragment = this.FragmentManager.FindFragmentById(Resource.Id.fragmentContainer);
+                if (fragment != null)
+                {
+                    e.FragmentTransaction.Remove(fragment);
+                }
+                e.FragmentTransaction.Add(Resource.Id.fragmentContainer, view);
+            };
+
+            tab.TabUnselected += delegate (object sender, ActionBar.TabEventArgs e)
+            {
+                e.FragmentTransaction.Remove(view);
+            };
+        }
+
+      
         private void HotDogListView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
             var hotDog = allHotDogs[e.Position];
