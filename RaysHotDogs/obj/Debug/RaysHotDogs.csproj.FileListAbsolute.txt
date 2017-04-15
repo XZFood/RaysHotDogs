@@ -49,5 +49,11 @@ C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\hot
 C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\mainmenu.xml
 C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\obj\Debug\res\drawable\raylogo.png
 C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\aboutview.xml
+C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\favouritehotdogfragment.xml
+C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\veggieloversfragment.xml
+C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\obj\Debug\res\layout\meatloversfragment.xml
+C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\obj\Debug\res\drawable\favoritesicon.png
+C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\obj\Debug\res\drawable\meatloversicon.png
+C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\obj\Debug\res\drawable\veggieloversicon.png
 C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\obj\Debug\RaysHotDogs.dll.mdb
 C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\bin\Debug\RaysHotDogs.dll.mdb
