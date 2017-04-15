@@ -36,7 +36,7 @@ namespace RaysHotDogs
             SetContentView(Resource.Layout.HotDogDetailView);
 
             HotDogDataService dataService = new HotDogDataService();
-            selectedHotDog = dataService.GetHotDogById(1);
+           
 
             var selectedHotDogId = Intent.Extras.GetInt("selectedHotDogId");
             selectedHotDog = dataService.GetHotDogById(selectedHotDogId);
@@ -86,10 +86,12 @@ namespace RaysHotDogs
         {
             var amount = Int32.Parse(amountEditText.Text);
 
-            var dialog = new AlertDialog.Builder(this);
-            dialog.SetTitle("Confirmation");
-            dialog.SetMessage("Your hot dog has been added to your cart!");
-            dialog.Show();
+            var intent = new Intent();
+            intent.PutExtra("selectedHotDogId", selectedHotDog.HotDogId);
+            intent.PutExtra("amount", amount);
+
+            SetResult(Result.Ok, intent);
+            this.Finish();
         }
     }
 }
