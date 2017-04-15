@@ -44,9 +44,24 @@ namespace RaysHotDogs
 
             var intent = new Intent();
             intent.SetClass(this, typeof(HotDogDetailActivity));
-            intent.PutExtra("selectHotdogId", hotDog.HotDogId);
+            intent.PutExtra("selectedHotDogId", hotDog.HotDogId);
 
             StartActivityForResult(intent, 100);
+        }
+
+        protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+
+            if (resultCode == Result.Ok && requestCode == 100)
+            {
+                var selectedHotdog = hotDogDataService.GetHotDogById(data.GetIntExtra("selectedHotDogId", 0));
+
+                var dialog = new AlertDialog.Builder(this);
+                dialog.SetTitle("Confirmation");
+                dialog.SetMessage(string.Format("You've added {0} time(s) the {1}", data.GetIntExtra("amount", 0)));
+                dialog.Show();
+            }
         }
     }
 }
