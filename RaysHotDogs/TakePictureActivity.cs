@@ -11,6 +11,8 @@ using Android.Views;
 using Android.Widget;
 using Java.IO;
 using Android.Provider;
+using Android.Graphics;
+using RaysHotDogs.Utility;
 
 namespace RaysHotDogs
 {
@@ -22,6 +24,8 @@ namespace RaysHotDogs
 
         private File imageDirectory;
         private File imageFile;
+        private Bitmap imageBitmap;
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -58,6 +62,21 @@ namespace RaysHotDogs
             intent.PutExtra(MediaStore.ExtraOutput, Android.Net.Uri.FromFile(imageFile));
             StartActivityForResult(intent, 0);
 
+        }
+
+        protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
+        {
+            int height = rayPictureImageView.Height;
+            int width = rayPictureImageView.Width;
+            imageBitmap = ImageHelper.GetImageBitmapFromFilePath(imageFile.Path, width, height);
+
+            if(imageBitmap !=null)
+            {
+                rayPictureImageView.SetImageBitmap(imageBitmap);
+                imageBitmap = null;
+            }
+
+            GC.Collect();
         }
     }
 }
