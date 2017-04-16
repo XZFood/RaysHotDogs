@@ -63,6 +63,7 @@
     <Compile Include="HotDogMenuActivity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="MenuActivity.cs" />
+    <Compile Include="RayMapActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TakePictureActivity.cs" />
@@ -96,6 +97,9 @@
     <AndroidResource Include="Resources\layout\FavoriteHotDogFragment.axml" />
     <AndroidResource Include="Resources\layout\HotDogRowView.axml" />
     <AndroidResource Include="Resources\layout\TakePictureView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\RayMapView.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

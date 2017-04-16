@@ -15,3 +15,9 @@ C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs.Core\obj\Debug\RaysHotDo
 C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs.Core\bin\Debug\RaysHotDogs.Core.dll.mdb
 C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs.Core\obj\Debug\RaysHotDogs.Core.dll.mdb
 C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs.Core\bin\Debug\RaysHotDogs.Core.dll.mdb
+C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs.Core\obj\Debug\RaysHotDogs.Core.dll.mdb
+C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs.Core\bin\Debug\RaysHotDogs.Core.dll.mdb
+C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs.Core\obj\Debug\RaysHotDogs.Core.dll.mdb
+C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs.Core\bin\Debug\RaysHotDogs.Core.dll.mdb
+C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs.Core\obj\Debug\RaysHotDogs.Core.dll.mdb
+C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs.Core\bin\Debug\RaysHotDogs.Core.dll.mdb

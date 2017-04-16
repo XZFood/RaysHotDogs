@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>16/04/2017 14:34:48</xs:documentation>
+    <xs:documentation>16/04/2017 14:57:20</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -17130,6 +17130,7 @@
             <xs:enumeration value="@id/cancelButton" />
             <xs:enumeration value="@id/cartButton" />
             <xs:enumeration value="@id/descriptionTextView" />
+            <xs:enumeration value="@id/externalMapButton" />
             <xs:enumeration value="@id/fragmentContainer" />
             <xs:enumeration value="@id/hotDogImageView" />
             <xs:enumeration value="@id/hotDogListView" />
