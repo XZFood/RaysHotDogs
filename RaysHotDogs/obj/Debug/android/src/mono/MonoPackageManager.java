@@ -100,6 +100,16 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "RaysHotDogs.dll" comes first in this list. */
 		"RaysHotDogs.dll",
 		"RaysHotDogs.Core.dll",
+		"Xamarin.Android.Support.Compat.dll",
+		"Xamarin.Android.Support.Core.UI.dll",
+		"Xamarin.Android.Support.Core.Utils.dll",
+		"Xamarin.Android.Support.Media.Compat.dll",
+		"Xamarin.Android.Support.Fragment.dll",
+		"Xamarin.Android.Support.v4.dll",
+		"Xamarin.GooglePlayServices.Basement.dll",
+		"Xamarin.GooglePlayServices.Tasks.dll",
+		"Xamarin.GooglePlayServices.Base.dll",
+		"Xamarin.GooglePlayServices.Maps.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
