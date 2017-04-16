@@ -9,6 +9,8 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Java.IO;
+using Android.Provider;
 
 namespace RaysHotDogs
 {
@@ -17,6 +19,9 @@ namespace RaysHotDogs
     {
         private ImageView rayPictureImageView;
         private Button takePictureButton;
+
+        private File imageDirectory;
+        private File imageFile;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -26,6 +31,13 @@ namespace RaysHotDogs
 
             FindViews();
             HandleEvents();
+
+            imageDirectory = new File(Android.OS.Environment.GetExternalStoragePublicDirectory(Android.OS.Environment.DirectoryPictures), "RaysHotDogs");
+
+            if(!imageDirectory.Exists())
+            {
+                imageDirectory.Mkdir();
+            }
         }
 
         private void FindViews()
@@ -41,7 +53,10 @@ namespace RaysHotDogs
 
         private void TakePictureButton_Click(object sender, EventArgs e)
         {
-            
+            Intent intent = new Intent(MediaStore.ActionImageCapture);
+            imageFile = new File(imageDirectory, String.Format("PhotoWithRay_{0}_{1}", Guid.NewGuid()));
+            intent.PutExtra(MediaStore.ExtraOutput, Android.Net.Uri.FromFile(imageFile));
+            StartActivityForResult(intent, 0);
 
         }
     }
