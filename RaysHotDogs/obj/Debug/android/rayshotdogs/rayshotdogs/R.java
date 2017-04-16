@@ -35,8 +35,10 @@ public final class R {
         public static final int orderButton=0x7f05000b;
         public static final int phoneNumberTextView=0x7f050001;
         public static final int priceTextView=0x7f050008;
+        public static final int rayPictureImageView=0x7f050014;
         public static final int shortDescriptionTextView=0x7f050006;
         public static final int takePictureButton=0x7f050010;
+        public static final int textView1=0x7f050013;
     }
     public static final class layout {
         public static final int aboutview=0x7f030000;
@@ -48,7 +50,8 @@ public final class R {
         public static final int main=0x7f030006;
         public static final int mainmenu=0x7f030007;
         public static final int meatloversfragment=0x7f030008;
-        public static final int veggieloversfragment=0x7f030009;
+        public static final int takepictureview=0x7f030009;
+        public static final int veggieloversfragment=0x7f03000a;
     }
     public static final class string {
         public static final int ApplicationName=0x7f040001;

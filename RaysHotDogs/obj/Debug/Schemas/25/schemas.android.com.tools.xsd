@@ -2,7 +2,7 @@
 <xs:schema xmlns:tools="http://schemas.android.com/tools" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/tools" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>16/04/2017 13:55:28</xs:documentation>
+    <xs:documentation>16/04/2017 14:12:13</xs:documentation>
   </xs:annotation>
   <xs:attribute name="layout">
     <xs:annotation>
@@ -17,9 +17,11 @@
             <xs:enumeration value="@layout/hotdogdetailview" />
             <xs:enumeration value="@layout/hotdoglistview" />
             <xs:enumeration value="@layout/hotdogmenuview" />
+            <xs:enumeration value="@layout/hotdogrowview" />
             <xs:enumeration value="@layout/main" />
             <xs:enumeration value="@layout/mainmenu" />
             <xs:enumeration value="@layout/meatloversfragment" />
+            <xs:enumeration value="@layout/takepictureview" />
             <xs:enumeration value="@layout/veggieloversfragment" />
             <xs:enumeration value="@android:layout/activity_list_item" />
             <xs:enumeration value="@android:layout/browser_link_context_header" />
@@ -74,9 +76,11 @@
             <xs:enumeration value="@layout/hotdogdetailview" />
             <xs:enumeration value="@layout/hotdoglistview" />
             <xs:enumeration value="@layout/hotdogmenuview" />
+            <xs:enumeration value="@layout/hotdogrowview" />
             <xs:enumeration value="@layout/main" />
             <xs:enumeration value="@layout/mainmenu" />
             <xs:enumeration value="@layout/meatloversfragment" />
+            <xs:enumeration value="@layout/takepictureview" />
             <xs:enumeration value="@layout/veggieloversfragment" />
             <xs:enumeration value="@android:layout/activity_list_item" />
             <xs:enumeration value="@android:layout/browser_link_context_header" />
@@ -131,9 +135,11 @@
             <xs:enumeration value="@layout/hotdogdetailview" />
             <xs:enumeration value="@layout/hotdoglistview" />
             <xs:enumeration value="@layout/hotdogmenuview" />
+            <xs:enumeration value="@layout/hotdogrowview" />
             <xs:enumeration value="@layout/main" />
             <xs:enumeration value="@layout/mainmenu" />
             <xs:enumeration value="@layout/meatloversfragment" />
+            <xs:enumeration value="@layout/takepictureview" />
             <xs:enumeration value="@layout/veggieloversfragment" />
             <xs:enumeration value="@android:layout/activity_list_item" />
             <xs:enumeration value="@android:layout/browser_link_context_header" />
@@ -188,9 +194,11 @@
             <xs:enumeration value="@layout/hotdogdetailview" />
             <xs:enumeration value="@layout/hotdoglistview" />
             <xs:enumeration value="@layout/hotdogmenuview" />
+            <xs:enumeration value="@layout/hotdogrowview" />
             <xs:enumeration value="@layout/main" />
             <xs:enumeration value="@layout/mainmenu" />
             <xs:enumeration value="@layout/meatloversfragment" />
+            <xs:enumeration value="@layout/takepictureview" />
             <xs:enumeration value="@layout/veggieloversfragment" />
             <xs:enumeration value="@android:layout/activity_list_item" />
             <xs:enumeration value="@android:layout/browser_link_context_header" />
