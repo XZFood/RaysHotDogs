@@ -78,5 +78,9 @@ C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets
 C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\bin\Debug\System.Runtime.Serialization.Primitives.dll.mdb
+C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll.mdb
 C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\obj\Debug\RaysHotDogs.dll.mdb
 C:\Users\Admin\Documents\GitHub\RaysHotDogs\RaysHotDogs\bin\Debug\RaysHotDogs.dll.mdb
