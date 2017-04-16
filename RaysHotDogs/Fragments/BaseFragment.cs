@@ -7,7 +7,6 @@ using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
-using Android.Util;
 using Android.Views;
 using Android.Widget;
 using RaysHotDogs.Core.Service;
@@ -15,7 +14,7 @@ using RaysHotDogs.Core.Model;
 
 namespace RaysHotDogs.Fragments
 {
-    public class BaseFragment : Fragment
+    public class BaseFragment: Fragment
     {
         protected ListView listView;
         protected HotDogDataService hotDogDataService;
@@ -30,14 +29,12 @@ namespace RaysHotDogs.Fragments
         {
             listView.ItemClick += ListView_ItemClick;
         }
-
-
         protected void FindViews()
         {
             listView = this.View.FindViewById<ListView>(Resource.Id.hotDogListView);
         }
 
-        private void ListView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
+        protected void ListView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
             var hotDog = hotDogs[e.Position];
 
@@ -47,7 +44,5 @@ namespace RaysHotDogs.Fragments
 
             StartActivityForResult(intent, 100);
         }
-
-  
     }
 }

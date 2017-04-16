@@ -21,6 +21,7 @@ namespace RaysHotDogs
         private Button mapButton;
         private Button takePictureButton;
 
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -44,13 +45,6 @@ namespace RaysHotDogs
         {
             orderButton.Click += OrderButton_Click;
             aboutButton.Click += AboutButton_Click;
-            takePictureButton.Click += TakePictureButton_Click;
-        }
-
-        private void TakePictureButton_Click(object sender, EventArgs e)
-        {
-            var intent = new Intent(this, typeof(TakePictureActivity));
-            StartActivity(intent);
         }
 
         private void AboutButton_Click(object sender, EventArgs e)

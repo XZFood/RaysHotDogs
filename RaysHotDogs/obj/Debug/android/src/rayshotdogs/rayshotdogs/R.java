@@ -44,10 +44,11 @@ public final class R {
         public static final int hotdogdetailview=0x7f030002;
         public static final int hotdoglistview=0x7f030003;
         public static final int hotdogmenuview=0x7f030004;
-        public static final int main=0x7f030005;
-        public static final int mainmenu=0x7f030006;
-        public static final int meatloversfragment=0x7f030007;
-        public static final int veggieloversfragment=0x7f030008;
+        public static final int hotdogrowview=0x7f030005;
+        public static final int main=0x7f030006;
+        public static final int mainmenu=0x7f030007;
+        public static final int meatloversfragment=0x7f030008;
+        public static final int veggieloversfragment=0x7f030009;
     }
     public static final class string {
         public static final int ApplicationName=0x7f040001;

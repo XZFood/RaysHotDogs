@@ -9,13 +9,13 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using RaysHotDogs.Core.Service;
 using RaysHotDogs.Core.Model;
+using RaysHotDogs.Core.Service;
 using RaysHotDogs.Utility;
 
 namespace RaysHotDogs
 {
-    [Activity(Label = "Hot Dog Detail")]
+    [Activity(Label = "Hotdog details")]
     public class HotDogDetailActivity : Activity
     {
         private ImageView hotDogImageView;
@@ -40,7 +40,7 @@ namespace RaysHotDogs
 
             HotDogDataService dataService = new HotDogDataService();
             var selectedHotDogId = Intent.Extras.GetInt("selectedHotDogId");
-            selectedHotDog = dataService.GetHotDogById(selectedHotDogId);
+            selectedHotDog = dataService.GetHotDogById(selectedHotDogId );
 
             FindViews();
 

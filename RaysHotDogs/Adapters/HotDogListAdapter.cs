@@ -14,11 +14,10 @@ using RaysHotDogs.Utility;
 
 namespace RaysHotDogs.Adapters
 {
-    public class HotDogListAdapter : BaseAdapter<HotDog>
+    public class HotDogListAdapter: BaseAdapter<HotDog>
     {
         List<HotDog> items;
         Activity context;
-
 
         public HotDogListAdapter(Activity context, List<HotDog> items) : base()
         {
@@ -31,6 +30,22 @@ namespace RaysHotDogs.Adapters
             return position;
         }
 
+        public override HotDog this[int position]
+        {
+            get
+            {
+                return items[position];
+            }
+        }
+
+        public override int Count
+        {
+            get
+            {
+                return items.Count;
+            }
+        }
+
         public override View GetView(int position, View convertView, ViewGroup parent)
         {
             var item = items[position];
@@ -39,7 +54,7 @@ namespace RaysHotDogs.Adapters
 
             if (convertView == null)
             {
-                convertView = context.LayoutInflater.Inflate(Resource.Layout.HotDogMenuView, null);
+                convertView = context.LayoutInflater.Inflate(Resource.Layout.HotDogRowView, null);
             }
 
             convertView.FindViewById<TextView>(Resource.Id.hotDogNameTextView).Text = item.Name;
@@ -50,21 +65,5 @@ namespace RaysHotDogs.Adapters
             return convertView;
         }
 
-
-        public override int Count
-        {
-            get
-            {
-                return items.Count;
-            }
-        }
-
-        public override HotDog this[int position]
-        {
-            get
-            {
-                return items[position];
-            }
-        }
     }
 }

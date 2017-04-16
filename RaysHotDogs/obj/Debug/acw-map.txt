@@ -18,10 +18,6 @@ RaysHotDogs.MenuActivity, RaysHotDogs;md569b3812a35e0a5e98137aae69d6c065a.MenuAc
 RaysHotDogs.MenuActivity, RaysHotDogs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md569b3812a35e0a5e98137aae69d6c065a.MenuActivity
 RaysHotDogs.MenuActivity;md569b3812a35e0a5e98137aae69d6c065a.MenuActivity
 rayshotdogs.MenuActivity;md569b3812a35e0a5e98137aae69d6c065a.MenuActivity
-RaysHotDogs.TakePictureActivity, RaysHotDogs;md569b3812a35e0a5e98137aae69d6c065a.TakePictureActivity
-RaysHotDogs.TakePictureActivity, RaysHotDogs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md569b3812a35e0a5e98137aae69d6c065a.TakePictureActivity
-RaysHotDogs.TakePictureActivity;md569b3812a35e0a5e98137aae69d6c065a.TakePictureActivity
-rayshotdogs.TakePictureActivity;md569b3812a35e0a5e98137aae69d6c065a.TakePictureActivity
 RaysHotDogs.Fragments.BaseFragment, RaysHotDogs;md5dc7accffdbc3c7c453ca806efba608b8.BaseFragment
 RaysHotDogs.Fragments.BaseFragment, RaysHotDogs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5dc7accffdbc3c7c453ca806efba608b8.BaseFragment
 RaysHotDogs.Fragments.BaseFragment;md5dc7accffdbc3c7c453ca806efba608b8.BaseFragment
